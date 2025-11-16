@@ -1,9 +1,25 @@
 body {
   background-color: thistle;
+  color: #0000ff;
 }
-
 
 h2{
-	color: #FFFFFF;
+	color: #FFFFFF !important;
+  text-align: center;
 }
 
+#pagetitle{
+  background-color: tomato;
+  text-align: center;
+  padding: 50px;
+  border: solid;
+  border-width: 5px;
+  margin: 20px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
